@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "mq.queues.emissao-cartoes",
+      "type": "java.lang.String",
+      "description": "Description for mq.queues.emissao-cartoes."
+    }
+  ]
+}

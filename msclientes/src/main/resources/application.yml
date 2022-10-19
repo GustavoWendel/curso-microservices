@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: msclientes
+
+server:
+  port: 0
+
+eureka:
+  client:
+    service-url:
+      defaulZone: http://localhost:8761/eureka
+  instance:
+    instance-id: ${spring.application.name}:${ spring.application.istance_id:${random.value} }
